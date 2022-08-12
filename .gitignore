@@ -1,0 +1,12 @@
+node_modules
+.nuxt
+.output
+.build
+dist
+
+.env
+.vscode
+.DS_STORE
+*.log
+
+app/static/docs
