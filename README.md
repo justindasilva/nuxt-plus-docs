@@ -1,4 +1,4 @@
-## Instructions:
+## Instructions
 
 1. Go into `/docs` and run the following:
 ```
@@ -14,13 +14,15 @@ yarn
 yarn dev
 ```
 
-In `dev` mode, things seem to work fine as seen here:
+In `dev` mode, things seem to work fine if you go to `localhost:3000/docs` as seen here:
 
 ![Working here as expected](./screenshots/dev_mode.png)
 
 But if you run the following:
-`yarn build`
-`yarn start`
+```
+yarn build
+yarn start
+```
 
 The Docus application doesn't function correctly as seen here:
 
