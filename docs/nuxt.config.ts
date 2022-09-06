@@ -6,8 +6,10 @@ export default defineNuxtConfig({
     (process.env.DOCUS_THEME_PATH || '@nuxt-themes/docus'),
   ],
 
-  app: {
-    baseURL: '/docs/',
-  },
+  // Commenting this out for now to show the static routes issue I want to figure out first
+  
+  // app: {
+  //   baseURL: '/docs/',
+  // },
 
 })

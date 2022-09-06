@@ -1,0 +1,16 @@
+{
+  "name": "presentation",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "export-to-docs": "yarn build --base /presentation/ && mkdir -p ../docs/public && rsync -a --delete dist/ ../docs/public/presentation/"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.35.5",
+    "@slidev/theme-default": "^0.21.2",
+    "@slidev/theme-seriph": "^0.21.3"
+  }
+}
